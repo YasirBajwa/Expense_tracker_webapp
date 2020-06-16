@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-color: #f7f7f7;
   display: flex;
@@ -98,6 +99,26 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.btn1,.date{
+  cursor: pointer;
+  background-color: #9c88ff;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+}
+.date{
+  background-color: yellowgreen;
 }
 
 .btn:focus,

@@ -10,7 +10,10 @@ import { GlobalProvider } from './context/GlobalState';
 
 
 
-function App() {
+class App extends React.Component {
+  state = {date: new Date()}
+ 
+  render(){
   return (
     <GlobalProvider>
       <Header />
@@ -18,10 +21,12 @@ function App() {
         <Balance />
         <Expenses />
         <TransactionList />
-        <AddTransaction />
+        <AddTransaction date={this.state.date.toLocaleDateString()} />
       </div>
     </GlobalProvider>
   );
 }
+}
+
 
 export default App;
