@@ -1,5 +1,6 @@
 import React, {useState, useContext} from 'react'
 import { GlobalContext } from '../context/GlobalState';
+import Clock from 'react-live-clock';
 
 export const AddTransaction = (props) => {
 
@@ -37,7 +38,13 @@ export const AddTransaction = (props) => {
         </div>
       <div className='btns'>
        <button className="btn1">Add transaction</button>
-        <p className='date'>{props.date}</p>
+        <p className='date'>
+          {props.date}
+         
+          </p>
+
+         <p className='date'> <Clock format={'HH:mm:ss'} ticking={true} /></p>
+         
        </div>
       </form>
     </>
