@@ -7,10 +7,17 @@
 * {
   box-sizing: border-box;
 }
-
-
+.header-title{
+  text-align: center;
+}
+.total-balance{
+  text-align: center;
+}
+.transaction-history{
+  text-align: center;
+}
 body {
-  background-color: #f7f7f7;
+  background-color: #dedede;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,7 +49,7 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
@@ -66,11 +73,11 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color:green;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: red;
 }
 
 label {
@@ -88,7 +95,7 @@ input[type='number'] {
   width: 100%;
 }
 
-.btn {
+/* .btn {
   cursor: pointer;
   background-color: #9c88ff;
   box-shadow: var(--box-shadow);
@@ -98,8 +105,8 @@ input[type='number'] {
   font-size: 16px;
   margin: 10px 0 30px;
   padding: 10px;
-  width: 100%;
-}
+  width: 40%;
+} */
 .btns {
   display: flex;
   justify-content: space-evenly;
@@ -120,7 +127,6 @@ input[type='number'] {
 .date{
   background-color: yellowgreen;
 }
-
 .btn:focus,
 .delete-btn:focus {
   outline: 0;
@@ -130,10 +136,11 @@ input[type='number'] {
   list-style-type: none;
   padding: 0;
   margin-bottom: 40px;
+  
 }
 
 .list li {
-  background-color: #fff;
+  background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
   box-shadow: var(--box-shadow);
   color: #333;
   display: flex;
@@ -150,7 +157,21 @@ input[type='number'] {
 .list li.minus {
   border-right: 5px solid #c0392b;
 }
-
+.new-transaction{
+  /* background-image: radial-gradient( circle 939px at 94.7% 50%,
+ rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% ); */
+  /* color: #dedede; */
+  /* text-align: center; */
+}
+.amount-field,.text-field{
+  background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
+color: #dedede;
+}
+input::placeholder{
+  color:#dedede;
+  text-align: center;
+  font-size: 17px;
+}
 .delete-btn {
   cursor: pointer;
   background-color: #e74c3c;
@@ -169,4 +190,7 @@ input[type='number'] {
 
 .list li:hover .delete-btn {
   opacity: 1;
+}
+.new-transaction{
+  text-align: center;
 }

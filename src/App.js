@@ -9,7 +9,6 @@ import {AddTransaction} from './components/AddTransaction';
 import { GlobalProvider } from './context/GlobalState';
 
 
-
 class App extends React.Component {
   state = {date: new Date()}
  
@@ -27,6 +26,5 @@ class App extends React.Component {
   );
 }
 }
-
 
 export default App;
