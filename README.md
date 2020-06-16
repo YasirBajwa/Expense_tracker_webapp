@@ -1,3 +1,13 @@
+<h1>Expense Tracker Webapp </h1> <br>
+<p>This is the Bootcamp 2020 Project 1 to make a expense tracker app using following these:</p> <br>
+<ul>
+  <li>React</li>
+  <li>Context API </li>
+  <li> Use Reducer </li>
+  <li> CSS </li>
+  </ul>
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
