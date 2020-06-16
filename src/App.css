@@ -142,7 +142,7 @@ input[type='number'] {
 .list li {
   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: #dedede;
   display: flex;
   justify-content: space-between;
   position: relative;
@@ -198,4 +198,7 @@ input::placeholder{
 }
 .new-transaction{
   text-align: center;
+}
+.money.plus{
+  color: #dedede;
 }
