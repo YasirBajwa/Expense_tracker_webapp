@@ -72,13 +72,13 @@ h4 {
   margin: 5px 0;
 }
 
-.money.plus {
-  color:green;
+/* .money.plus {
+  color;
 }
 
 .money.minus {
   color: red;
-}
+} */
 
 label {
   display: inline-block;
@@ -125,7 +125,7 @@ input[type='number'] {
   padding: 10px;
 }
 .date{
-  background-color: yellowgreen;
+  background-color:#14F929;
 }
 .btn:focus,
 .delete-btn:focus {
@@ -156,7 +156,7 @@ input[type='number'] {
  font-size: 20px;
 }
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid #14F929;
 }
 
 .list li.minus {
