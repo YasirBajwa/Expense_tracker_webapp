@@ -149,7 +149,12 @@ input[type='number'] {
   padding: 10px;
   margin: 10px 0;
 }
-
+.footer{
+  /* background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% ); */
+/* color: #dedede;
+ */
+ font-size: 20px;
+}
 .list li.plus {
   border-right: 5px solid #2ecc71;
 }

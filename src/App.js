@@ -22,6 +22,9 @@ class App extends React.Component {
         <TransactionList />
         <AddTransaction date={this.state.date.toLocaleDateString()} />
       </div>
+      <div className='footer'>
+        Created By Yasir Bajwa from faisalabad BCC Quarter 1
+      </div>
     </GlobalProvider>
   );
 }
