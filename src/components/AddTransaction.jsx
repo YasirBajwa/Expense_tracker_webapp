@@ -37,7 +37,7 @@ export const AddTransaction = (props) => {
           <input type="number" className='amount-field' value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
       <div className='btns'>
-       <button className="btn1">Add transaction</button>
+       <button className="btn1">ADD Transaction</button>
         <p className='date'>
           {props.date}
          

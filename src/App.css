@@ -162,12 +162,23 @@ input[type='number'] {
 .list li.minus {
   border-right: 5px solid #c0392b;
 }
-.new-transaction{
-  /* background-image: radial-gradient( circle 939px at 94.7% 50%,
- rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% ); */
-  /* color: #dedede; */
-  /* text-align: center; */
+@media only screen and (max-width: 400px){
+.container{
+  width: 85%;
+  
 }
+.list > li{
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* .list > li{
+  margin-left: auto !important;
+  margin-right: auto !important;
+} */
+}
+
+
 .amount-field,.text-field{
   background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
 color: #dedede;
@@ -201,4 +212,16 @@ input::placeholder{
 }
 .money.plus{
   color: #dedede;
+}
+
+@media only screen and (max-width: 375px){
+.btn1 {
+  width:30% ;
+  height: 40px;
+  font-size: 13px;
+}
+.date{
+  width: 30%;
+  font-size: 14px;
+}
 }
