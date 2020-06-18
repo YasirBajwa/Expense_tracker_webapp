@@ -27,14 +27,14 @@ export const AddTransaction = (props) => {
       <form onSubmit={onSubmit}>
         <div className="form-control">
           <label htmlFor="text">Text</label>
-          <input type="text" className='text-field' value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
+          <input type="text" required className='text-field' value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." />
         </div>
         <div className="form-control">
           <label htmlFor="amount"
             >Amount <br />
             (negative - expense, positive - income)</label
           >
-          <input type="number" className='amount-field' value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
+          <input type="number" required className='amount-field' value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." />
         </div>
       <div className='btns'>
        <button className="btn1">ADD Transaction</button>
